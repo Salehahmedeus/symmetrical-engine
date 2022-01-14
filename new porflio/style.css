@@ -1,0 +1,357 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0%;
+}
+
+p{
+    text-align: left;
+    color: #8886FC;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+h1{
+    color: #8886FC;
+    font-size: 55px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.navbar{
+    position: fixed;
+    background-color: #8886FC;
+    min-height: 70px;
+    width: 100%;
+    
+}
+
+
+.navbar button{
+    margin-left: 0px;
+}
+
+
+nav p {
+    color: black;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+h2{
+    text-align: left;
+    color: #8886FC;
+    font-weight: 700;
+    margin-left: 30px;
+    }
+
+
+footer h2 {
+    text-align: center ;
+    margin-left: 0px;
+}
+
+.h2_media{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+hr{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 35px;
+    margin-top: 200px;
+}
+
+*{
+        margin: 0px;
+        padding-bottom: 0px;
+    }
+
+.bg_imge{
+   
+    background-image: url(imges/1246544.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.per_image{
+    width: 200px;
+    height: 300px;
+    background-image: url(imges/259537016_2744141245895277_3745470208309384900_n.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.margin_top{
+    margin-top: 30px;
+}
+
+.margin_bottem{
+    margin-bottom:  200px; ;
+}
+
+.margin_bottem_media{
+    margin-bottom:  50px; ;
+}
+
+
+footer a{
+    color: black;
+}
+
+.button_0{
+    position: relative;
+    width: 100px;
+    height: 35px;
+    color: #000;
+    background-color: #8886FC;
+    border: none;
+    border-radius: 4px;
+    transition: ease-out 0.3;
+    outline: none;
+    border: 3px solid #000;
+    z-index: 1;
+}
+
+.button_0:hover{
+    color: #8886FC;
+    cursor: pointer;
+}
+.button_0::before{
+    transition: 0.5 all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #000;
+}
+
+.button_0:hover:before{
+    transition: 0.5s all ease;
+    left: -1px;
+    right: -1px;
+    top: -3px;
+    bottom: -3px;
+    opacity: 1;
+    z-index: -1;
+}
+
+.button_1{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    height: 60px;
+    color: #8886FC;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    transition: ease-out 0.3;
+    outline: none;
+    border: 3px solid #8886FC;
+    z-index: 1;
+    font-size: 20px;
+    font-weight: 900 bolder;
+}
+
+.button_1:hover{
+    color: #000000;
+    cursor: pointer;
+    border: 5px solid #000000;
+}
+.button_1::before{
+    transition: 0.5 all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #eff300;
+}
+
+.button_1:hover:before{
+    transition: 0.5s all ease;
+    left: -1px;
+    right: -1px;
+    top: -1px;
+    bottom: -1px;
+    opacity: 1;
+    z-index: -1;
+}
+
+
+.button_2{
+    position: relative;
+    width: 100px;
+    height: 35px;
+    color: #000;
+    background-color: #8886FC;
+    border: none;
+    border-radius: 4px;
+    transition: ease-out 0.3;
+    outline: none;
+    border: 3px solid #000;
+    z-index: 1;
+}
+
+.button_2:hover{
+    color: #8886FC;
+    cursor: pointer;
+}
+.button_2::before{
+    transition: 0.5 all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #000;
+}
+
+.button_2:hover:before{
+    transition: 0.5s all ease;
+    left: -1px;
+    right: -1px;
+    top: -3px;
+    bottom: -3px;
+    opacity: 1;
+    z-index: -1;
+}
+
+.button_3{
+    position: relative;
+    width: 100px;
+    height: 35px;
+    color: #000;
+    background-color: #8886FC;
+    border: none;
+    border-radius: 4px;
+    transition: ease-out 0.3;
+    outline: none;
+    border: 3px solid #000;
+    z-index: 1;
+}
+
+.button_3:hover{
+    color: #8886FC;
+    cursor: pointer;
+}
+.button_3::before{
+    transition: 0.5 all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #000;
+}
+
+.button_3:hover:before{
+    transition: 0.5s all ease;
+    left: -1px;
+    right: -1px;
+    top: -3px;
+    bottom: -3px;
+    opacity: 1;
+    z-index: -1;
+}
+.button_4{
+    position: relative;
+    width: 100px;
+    height: 35px;
+    color: #000;
+    background-color: #8886FC;
+    border: none;
+    border-radius: 4px;
+    transition: ease-out 0.3;
+    outline: none;
+    border: 3px solid #000;
+    z-index: 1;
+}
+
+.button_4:hover{
+    color: #8886FC;
+    cursor: pointer;
+}
+.button_4::before{
+    transition: 0.5 all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #000;
+}
+
+.button_4:hover:before{
+    transition: 0.5s all ease;
+    left: -1px;
+    right: -1px;
+    top: -3px;
+    bottom: -3px;
+    opacity: 1;
+    z-index: -1;
+}
+
+.button_5{
+    position: relative;
+    width: 100px;
+    height: 35px;
+    color: rgb(0, 0, 0);
+    background-color: #eff300;
+    border: none;
+    border-radius: 4px;
+    transition: ease-out 0.3;
+    outline: none;
+    border: 3px solid rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.button_5:hover{
+    color: #8886FC;
+    cursor: pointer;
+}
+.button_5::before{
+    transition: 0.5 all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #000;
+}
+
+.button_5:hover:before{
+    transition: 0.5s all ease;
+    left: -1px;
+    right: -1px;
+    top: -3px;
+    bottom: -3px;
+    opacity: 1;
+    z-index: -1;
+}
